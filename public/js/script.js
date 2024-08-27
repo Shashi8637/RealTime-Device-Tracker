@@ -21,7 +21,7 @@ if(navigator.geolocation){
 }
 
 //initialize the map
-const map = L.map("map").setView([0,0],8);
+const map = L.map("map").setView([0,0],6);
 
 //Add a tile layer to map
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
